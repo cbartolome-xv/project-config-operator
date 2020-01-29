@@ -11,7 +11,7 @@
   register:
     project_list
 
-- name: Create Secret in all projects for Users
+- name: Create Secret in all projects
   include_tasks: "{{role_path}}/tasks/secret_tasks.yml"
   loop: "{{ project_list.resources }}"
   loop_control:
