@@ -1,0 +1,6 @@
+---
+- version: v1alpha1
+  group: project.bt.com
+  kind: ProjectConfig
+  role: /opt/ansible/roles/projectconfig
+  reconcilePeriod: 10s
